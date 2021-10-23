@@ -1,5 +1,6 @@
 # this is a python file for mostly used util functions that can used in projects
 #  just import this from github and it is okay
+# URL = https://raw.githubusercontent.com/zhu-jun-ting/INFO-490-MH2/main/util.py
 
 
 def flat(l): 
