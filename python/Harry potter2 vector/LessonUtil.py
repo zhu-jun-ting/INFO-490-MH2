@@ -14,7 +14,7 @@ class Config(namedtuple('Config', ['doc', 'size', 'window', 'min_count', 'sg', '
 
     def __str__(self):
         # skip doc
-        fmt = "doc_len:{}, size:{}, window:{}, min_count:{}, sg:{}, negative:{}, iter:{}"
+        fmt = "doc_len:{}, vector_size:{}, window:{}, min_count:{}, sg:{}, negative:{}, epochs:{}"
         return fmt.format(len(self.doc), self.size,
                           self.window, self.min_count,
                           self.sg, self.negative, self.iter)
